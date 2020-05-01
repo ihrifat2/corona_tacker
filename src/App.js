@@ -4,7 +4,7 @@ import { Cards, Chart, CountryPicker } from './components';
 import styles from './App.module.css';
 import { fetchData } from './api';
 import coronaImage from './image/covid.png'
-import { Typography, Grid  } from '@material-ui/core'
+import { Typography, Grid } from '@material-ui/core'
 
 class App extends React.Component {
     state = {
